@@ -1,0 +1,20 @@
+{
+    "name": "ko31/youtube-explorer",
+    "description": "Do you want me to help you search YouTube?",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "ko31",
+            "email": "takagi@go-sign.info"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Gosign\\YoutubeExplorer": "app"
+        }
+    }
+}

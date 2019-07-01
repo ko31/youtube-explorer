@@ -12,4 +12,27 @@
  * @package         Youtube_Explorer
  */
 
-// Your code starts here.
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
+
+require_once( dirname( __FILE__ ) . '/vendor/autoload.php' );
+
+/**
+ * Initialize plugin.
+ */
+add_action( 'plugins_loaded', function () {
+	load_plugin_textdomain(
+		'youtube-explorer',
+		false,
+		dirname( plugin_basename( __FILE__ ) ) . '/languages'
+	);
+	Gosign\YoutubeExplorer::get_instance()->register();
+} );
+
+/**
+ * Deactivation.
+ */
+register_deactivation_hook( __FILE__, function () {
+	Gosign\YoutubeExplorer::get_instance()->deactivation();
+} );
