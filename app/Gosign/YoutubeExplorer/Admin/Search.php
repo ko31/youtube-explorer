@@ -215,3 +215,4 @@ class Search extends Singleton {
 
 		return $videos;
 	}
+}
