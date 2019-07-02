@@ -64,7 +64,7 @@ class Admin extends Singleton {
 		?>
         <input name="<?php echo $this->slug; ?>[google_api_key]" type="text" id="google_api_key"
                value="<?php echo esc_attr( $google_api_key ); ?>" class="regular-text">
-        <p class="description"><?php _e( 'Get API Key from <a href="https://console.cloud.google.com/">Google Cloud Plathome</a>', 'youtube-explorer' ); ?></p>
+        <p class="description"><?php _e( 'Get API Key from <a href="https://console.cloud.google.com/" target="_blank">Google Cloud Plathome</a>', 'youtube-explorer' ); ?></p>
 		<?php
 	}
 
