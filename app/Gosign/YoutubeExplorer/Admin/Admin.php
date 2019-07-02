@@ -3,6 +3,7 @@
 namespace Gosign\YoutubeExplorer\Admin;
 
 use Gosign\YoutubeExplorer\Pattern\Singleton;
+use Gosign\YoutubeExplorer\Admin\Search;
 
 /**
  * Setting admin screen.
@@ -73,7 +74,7 @@ class Admin extends Singleton {
 	public function display() {
 		$action = untrailingslashit( admin_url() ) . '/options.php';
 		?>
-        <div class="wrap media-xml-sitemap-settings">
+        <div class="wrap youtube-explorer-settings">
             <h1 class="wp-heading-inline"><?php _e( 'Youtube Explorer Settings', 'youtube-explorer' ); ?></h1>
             <form action="<?php echo esc_url( $action ); ?>" method="post">
 				<?php
@@ -84,5 +85,8 @@ class Admin extends Singleton {
             </form>
         </div>
 		<?php
+		if ( ! empty( $this->options['google_api_key'] ) ) {
+			Search::get_instance()->display();
+		}
 	}
 }

@@ -16,8 +16,6 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-require_once( dirname( __FILE__ ) . '/vendor/autoload.php' );
-
 /**
  * Initialize plugin.
  */
@@ -27,6 +25,7 @@ add_action( 'plugins_loaded', function () {
 		false,
 		dirname( plugin_basename( __FILE__ ) ) . '/languages'
 	);
+	require_once( dirname( __FILE__ ) . '/vendor/autoload.php' );
 	Gosign\YoutubeExplorer::get_instance()->register();
 } );
 
