@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Youtube Explorer 0.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/youtube-explorer\n"
-"POT-Creation-Date: 2019-07-01 21:01:46+00:00\n"
+"POT-Creation-Date: 2019-07-02 02:53:25+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,35 +28,100 @@ msgstr ""
 msgid "Youtube Explorer"
 msgstr ""
 
-#: app/Gosign/YoutubeExplorer/Admin/Admin.php:41
-#: app/Gosign/YoutubeExplorer/Admin/Admin.php:77
+#: app/Gosign/YoutubeExplorer/Admin/Admin.php:42
+#: app/Gosign/YoutubeExplorer/Admin/Admin.php:78
 msgid "Youtube Explorer Settings"
 msgstr ""
 
-#: app/Gosign/YoutubeExplorer/Admin/Admin.php:44
+#: app/Gosign/YoutubeExplorer/Admin/Admin.php:45
 msgid "Please set up settings for Youtube Explorer."
 msgstr ""
 
-#: app/Gosign/YoutubeExplorer/Admin/Admin.php:50
+#: app/Gosign/YoutubeExplorer/Admin/Admin.php:51
 msgid "API Key"
 msgstr ""
 
-#: app/Gosign/YoutubeExplorer/Admin/Admin.php:66
+#: app/Gosign/YoutubeExplorer/Admin/Admin.php:67
 msgid ""
-"Get API Key from <a href=\"https://console.cloud.google.com/\">Google Cloud "
-"Plathome</a>"
+"Get API Key from <a href=\"https://console.cloud.google.com/\" "
+"target=\"_blank\">Google Cloud Plathome</a>"
 msgstr ""
 
-#: app/Gosign/YoutubeExplorer/Admin/Search.php:28
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:38
 msgid "Keyword"
 msgstr ""
 
-#: app/Gosign/YoutubeExplorer/Admin/Search.php:31
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:41
 msgid "Input search keyword"
 msgstr ""
 
-#: app/Gosign/YoutubeExplorer/Admin/Search.php:39
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:46
+msgid "Max results"
+msgstr ""
+
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:54
+msgid "Order"
+msgstr ""
+
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:59
+msgid "Date"
+msgstr ""
+
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:61
+msgid "Rating"
+msgstr ""
+
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:63
+msgid "Relevance"
+msgstr ""
+
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:65
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:110
+msgid "Title"
+msgstr ""
+
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:67
+msgid "Video Count"
+msgstr ""
+
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:69
+msgid "View Count"
+msgstr ""
+
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:75
+msgid "Type"
+msgstr ""
+
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:81
+msgid "Video"
+msgstr ""
+
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:86
+msgid "Channel"
+msgstr ""
+
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:91
+msgid "Playlist"
+msgstr ""
+
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:100
 msgid "Search"
+msgstr ""
+
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:109
+msgid "Thumbnail"
+msgstr ""
+
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:111
+msgid "Id"
+msgstr ""
+
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:112
+msgid "Action"
+msgstr ""
+
+#: app/Gosign/YoutubeExplorer/Admin/Search.php:147
+msgid "View movie"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
