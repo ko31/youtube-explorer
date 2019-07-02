@@ -106,7 +106,7 @@ class Search extends Singleton {
             <table class="wp-list-table widefat fixed striped">
                 <thead>
                 <tr>
-                    <th><?php esc_html_e( 'Thumbnail', 'youtube-explorer' ); ?></th>
+                    <th><?php esc_html_e( 'Movie', 'youtube-explorer' ); ?></th>
                     <th><?php esc_html_e( 'Title', 'youtube-explorer' ); ?></th>
                     <th><?php esc_html_e( 'Id', 'youtube-explorer' ); ?></th>
                     <th><?php esc_html_e( 'Action', 'youtube-explorer' ); ?></th>
